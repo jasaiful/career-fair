@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import logo from '../../../../public/logo.png'
+import logo from '../../../assets/Images/logo.png'
 
 
 const Footer = () => {
@@ -21,6 +21,10 @@ const Footer = () => {
         <li>
             <NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/about" >About</NavLink>
+        </li>
+        <li>
+            <NavLink className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/register" >Register</NavLink>
         </li>
 
     </>

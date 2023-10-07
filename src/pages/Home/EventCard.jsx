@@ -1,4 +1,4 @@
-
+import PropTypes from "prop-types";
 
 const EventCard = ({ event }) => {
     const { title, venue, picture, date, time } = event;
@@ -8,10 +8,10 @@ const EventCard = ({ event }) => {
                 <figure><img className="rounded-t-lg w-full" src={picture} alt="Event" /></figure>
                 <div className="card-body">
                     <h2 className="card-title text-2xl">{title}</h2>
-                    <h2 className="card-title text-2xl font-bold">{venue}</h2>
+                    <h2 className="card-title text-2xl font-bold">Venue: {venue}</h2>
                     <div className="flex font-lg text-blue-600 text-xl">
-                    <p className="">Date: {date}</p>
-                    <p className="text-end">Time: {time}</p>
+                        <p className="">Date: {date}</p>
+                        <p className="text-end">Time: {time}</p>
                     </div>
                     <div className="card-actions justify-end">
                         <button className="btn btn-accent">View Details</button>
@@ -21,5 +21,9 @@ const EventCard = ({ event }) => {
         </div>
     );
 };
+
+EventCard.propTypes = {
+    event: PropTypes.node.isRequired
+}
 
 export default EventCard;

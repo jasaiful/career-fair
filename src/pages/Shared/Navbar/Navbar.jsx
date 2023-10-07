@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../../../public/logo.png'
+import logo from '../../../assets/Images/logo.png'
 
 
 
@@ -22,6 +22,10 @@ const Navbar = () => {
         <li>
             <NavLink className={({ isActive, isPending }) =>
                 isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/about" >About</NavLink>
+        </li>
+        <li>
+            <NavLink className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/register" >Register</NavLink>
         </li>
 
     </>

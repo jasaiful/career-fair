@@ -6,10 +6,7 @@ import EventCard from "./EventCard";
 
 
 const Home = () => {
-
     const events = useLoaderData();
-    console.log(events);
-
     return (
         <div>
             <Navbar></Navbar>
