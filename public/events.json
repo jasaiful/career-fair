@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Your Path to Success",
+        "venue": "Dhaka University",
+        "picture": "https://i.ibb.co/hRcM67x/du.jpg",
+        "date": "2023-10-15",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 2,
+        "title": "Explore Your Future",
+        "venue": "University of Chittagong",
+        "picture": "https://i.ibb.co/TKDKqsn/cu.jpg",
+        "date": "2023-10-25",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 3,
+        "title": "Mapping Your Career Journey",
+        "venue": "University of Rajshahi",
+        "picture": "https://i.ibb.co/Bgc8SPB/ru.jpg",
+        "date": "2023-10-28",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 4,
+        "title": "Where Dreams Meet Opportunities",
+        "venue": "Islamic University",
+        "picture": "https://i.ibb.co/5j8Q9cG/iu.jpg",
+        "date": "2023-11-02",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 5,
+        "title": "Your Gateway to Great Careers",
+        "venue": "Jagannath University",
+        "picture": "https://i.ibb.co/WtBhs2j/ju.jpg",
+        "date": "2023-11-08",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 6,
+        "title": "Where Ambitions Ignite",
+        "venue": "Jahangirnagar University",
+        "picture": "https://i.ibb.co/fq0gJk3/jhu.jpg",
+        "date": "2023-11-10",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 7,
+        "title": "Navigating Your Way to Success",
+        "venue": "NSTU",
+        "picture": "https://i.ibb.co/BjnQMnV/nstu.jpg",
+        "date": "2023-11-12",
+        "time": "10AM to 2PM"
+    },
+    {
+        "id": 8,
+        "title": "Future Forwarding Fair",
+        "venue": "BUET",
+        "picture": "https://i.ibb.co/vx0bf3k/buet.jpg",
+        "date": "2023-11-15",
+        "time": "10AM to 2PM"
+    }
+]
