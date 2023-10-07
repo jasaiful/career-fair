@@ -9,19 +9,19 @@ const Navbar = () => {
     const navLinks = <>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-pink-500 underline font-semibold" : ""} to="/" >Home</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/" >Home</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-pink-500 underline font-semibold" : ""} to="/events" >Events</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/events" >Events</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-pink-500 underline font-semibold" : ""} to="/attendees" >Attendees</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/attendees" >Attendees</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-pink-500 underline font-semibold" : ""} to="/about" >About</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/about" >About</NavLink>
         </li>
 
     </>
@@ -46,7 +46,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Login</a>
+                    <a className="btn btn-accent">Login</a>
                 </div>
             </div>
         </div>
