@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>The code creates a global variable "greetign" and assigns an empty object to it. Since "greetign" is not declared using let or var, it becomes a global variable.</i>
 
 </p>
 </details>
