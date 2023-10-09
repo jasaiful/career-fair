@@ -11,7 +11,7 @@ This project is created by the following features:
 - Firebase
 - React-Router
 - Component based
-- Functinal
+- Functional
 
 ## 🔗 Live Links
 https://b8-a9-career-fair.web.app/
