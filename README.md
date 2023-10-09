@@ -1,8 +1,22 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Batch-8, Assignment -9
+# Career Fairs
+A career fair website is an online platform designed to connect job seekers with employers and provide a virtual space for networking and recruitment activities. It typically features company profiles, job listings, and interactive tools like chat and video conferencing for real-time communication between job seekers and recruiters. These websites aim to streamline the job search process, allowing attendees to explore career opportunities, submit resumes, and engage in interviews from the comfort of their own devices. Career fair websites are especially valuable in today's digital landscape, offering convenience and accessibility for both job seekers and employers looking to fill positions.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is created by the following features:
+
+- React
+- Firebase
+- React-Router
+- Component based
+- Functinal
+
+## 🔗 Live Links
+https://b8-a9-career-fair.web.app/
+
+## Authors
+Julfiker Ali
+(Student of Programming Hero) Batch-8
+E-mail: jasaiful@gmail.com
