@@ -12,7 +12,7 @@ const Footer = () => {
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/events" >Events</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/events" >Booked Events</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>

@@ -10,6 +10,7 @@ const Home = () => {
     return (
         <div>
             <Navbar></Navbar>
+
             <Banner></Banner>
             <h2 className="text-4xl text-center font-bold mt-10 mb-5">Upcoming Events</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-10">
@@ -20,6 +21,7 @@ const Home = () => {
                     ></EventCard>)
                 }
             </div>
+            
             <Footer></Footer>
         </div>
     );

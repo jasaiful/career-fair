@@ -19,11 +19,11 @@ const Navbar = () => {
     const navLinks = <>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/" >Home</NavLink>
+                    isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/" >Home</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/events" >Events</NavLink>
+                isPending ? "pending" : isActive ? "text-black bg-cyan-400 underline font-semibold" : ""} to="/events" >Booked Events</NavLink>
         </li>
         <li>
             <NavLink className={({ isActive, isPending }) =>
@@ -60,10 +60,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">
-                    <p className='text-blue-600'> <span className="font-bold">Logged in as:</span> {user?.email}</p>
+                    
                     {
                         user ?
-                            <button onClick={handleUserSignOut} className="btn btn-accent">Logout</button>
+                            <button onClick={handleUserSignOut} className=""><p className='text-blue-600'> <span className="font-bold">Logged in:</span> {user?.email}</p> 
+                            <span className='btn btn-accent'>Logout</span>
+                            </button>
+                            
                             :
                             <Link to={'/login'}>
                                 <button className="btn btn-accent">Login</button>

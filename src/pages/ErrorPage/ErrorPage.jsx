@@ -15,7 +15,7 @@ const ErrorPage = () => {
                 Sorry, an unexpected error has occurred.
             </p>
             <Link to={"/"}>
-                <button className="btn btn-secondary mt-10 btn-sm">Go Back</button>
+                <button className="btn btn-accent mt-10 btn-sm">Go Back</button>
             </Link>
         </div>
     );

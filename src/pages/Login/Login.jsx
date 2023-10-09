@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Navbar from "../Shared/Navbar/Navbar";
 import { FaGoogle } from 'react-icons/fa';
@@ -9,11 +9,15 @@ import { AuthContext } from "../../providers/AuthProvider";
 const Login = () => {
     const { googleSignIn, userSignIn } = useContext(AuthContext);
     const [error, setError] = useState("");
+    const location = useLocation();
+    console.log("locate to", location)
+    const navigate = useNavigate();
 
     const handleGoogleSignIn = () => {
         googleSignIn()
             .then(result => {
                 console.log(result.user);
+                navigate(location?.state ? location.state : "/")
             });
     };
 
@@ -29,6 +33,7 @@ const Login = () => {
                 .then(result => {
                     console.log(result.user)
                     setError("")
+                    navigate(location?.state ? location.state : "/")
                 })
                 .catch(error => {
                     setError(error.message)
@@ -36,6 +41,7 @@ const Login = () => {
         }
 
     };
+
     return (
         <div>
             <Navbar></Navbar>

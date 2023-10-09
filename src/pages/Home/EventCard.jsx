@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const EventCard = ({ event }) => {
-    const { title, venue, picture, date, time } = event;
+    const { id, title, venue, picture, date, time } = event;
     return (
         <div>
             <div className="card card-compact w-full bg-yellow-50 shadow-xl">
@@ -14,7 +15,7 @@ const EventCard = ({ event }) => {
                         <p className="text-end">Time: {time}</p>
                     </div>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-accent">View Details</button>
+                        <Link to={`/event/${id}`}><button className="btn btn-accent">View Details</button></Link>
                     </div>
                 </div>
             </div>
