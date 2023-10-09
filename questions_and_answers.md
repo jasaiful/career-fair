@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>The code creates a global variable "greetign" and assigns an empty object to it. Since "greetign" is not declared using let or var, it becomes a global variable.</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>In JavaScript, when you use the + operator with one or more strings, it performs string concatenation, joining the two values together as strings. So, 1 and "2" are treated as strings and concatenated to form the string "12".</i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i> The code first creates an array food containing four emoji symbols. Then, it defines an object info with a property favoriteFood, which is initially assigned the value of the first element of the food array ("🍕"). However, later in the code, it assigns a new value ("🍝") to the info.favoriteFood property. This change does not affect the original food array, so when you log the food array to the console, it remains unchanged and still contains the original elements. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i> The sayHi function is missing an argument when called, so name is undefined, and the function returns "Hi there, undefined" when logged. </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i> Explanation: The code uses the forEach method to iterate through the nums array and increments the count variable for each truthy value in the array. Since all values except 0 are truthy, count becomes 3 after iterating through the array. </i>
 
 </p>
 </details>

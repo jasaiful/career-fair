@@ -11,7 +11,11 @@ This project is created by the following features:
 - Firebase
 - React-Router
 - Component based
+<<<<<<< HEAD
 - Functional
+=======
+- Functinal
+>>>>>>> cad4082e97a09cc5cf708a66e84b405346478dc0
 
 ## 🔗 Live Links
 https://b8-a9-career-fair.web.app/
@@ -19,4 +23,8 @@ https://b8-a9-career-fair.web.app/
 ## Authors
 Julfiker Ali
 (Student of Programming Hero) Batch-8
+<<<<<<< HEAD
 E-mail: jasaiful@gmail.com
+=======
+E-mail: jasaiful@gmail.com
+>>>>>>> cad4082e97a09cc5cf708a66e84b405346478dc0
